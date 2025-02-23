@@ -1,0 +1,32 @@
+//початок коду
+//змінні та їхнє ID
+document.getElementById('registrationForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+  const username = document.getElementById('username').value;
+  const name = document.getElementById("name").value;
+  const emailgmail = document.getElementById("email-gmail").value;
+  const password = document.getElementById("password").value;
+  const age = document.getElementById("age").value;
+  const gender = document.getElementById("gender").value;
+  const studentorno = document.getElementById("studentorno").value;
+//вивід в консоль
+  console.log('Ім\'я користувача:', username);
+  console.log("Name: ", name);
+  console.log("Email person: ", emailgmail);
+  console.log("Password person: ", password);
+  console.log("Age person: ", age );
+  console.log("Стать: ", gender);
+  console.log("Student or not: ", studentorno);
+
+//check out this is informations 
+if(username && name && emailgmail && password && age && gender && studentorno){
+  console.log("Реєстрація пройшла успішно!!!");
+} else {
+  console.log("Будь ласка заповніть всі поля необхідною інформацією!");
+
+}
+
+//code end
+//the end
+//code is great
+//could be good
