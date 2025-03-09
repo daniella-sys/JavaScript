@@ -1,44 +1,47 @@
-var arr = [2, 82828, true, false, "some people"];
-console.log(arr.sort().reverse());
+//quiz
+const quiz = [
+    {
+        quiz: prompt("Як ти зазвичай проводиш свій вільний час?"),
+        //quiz variante
+        quiz_variante_answers: prompt("Введіть будь ласка текст"),
+        //quiz question
+        quiz: prompt("Що для тебе успіх?" ),
+        //quiz variante
+        quiz_variante_answers: prompt("Введіть будь ласка текст"),
+        //quiz question
+        quiz: prompt("Які твої захоплення?"),
+        //quiz variante
+        quiz_variante_answers: prompt("Введіть будь ласка текст"),
+        //quiz question
+        quiz: prompt("Як настрій?"),
+        //quiz variante
+        quiz_variante_answers: prompt("Введіть будь ласка текст"),
+        //quiz question
+        quiz: prompt("Які твої погляди на життя?"),
+        //quiz variante
+        quiz_variante_answers: prompt("Введіть будь ласка текст"),
+        //ends
+    },
+];
+//function if and else
+if(quiz_variante_answers = string){
+    console.log("All right");
+} else {
+    console.log("Буль ласка заповніть лише текстом");
+}
 
-var user = prompt("Enter your favorite foods: ");
-var foods = user.split(",");
-console.log(foods);
-//create class
-class Person {
-    name = ""
-    age = ''
-    bio = ''
-    hooby = ''
-    favorite_food = ''
-    favorite_music = ''
-    favorite_movies = ''
-    favorite_color = ''
-    favorite_social_media = ''
-
-    info(){
-        console.log("People: " + this.name, "age: " + this.age);
-    }
-
-    constructor(name, age, bio, hooby){
-        this.name = name
-        this.age = age
-        this.bio = bio
-        this.hooby = hooby
+//function getInput
+function getInput() {
+    const input = document.getElementById("user").value.trim(); // Видаляємо зайві пробіли
+    if (input) {
+        console.log("Send: ", input);
+    } else {
+        console.log("Будь ласка, введіть текст.");
     }
 }
-//Присвоюємо значення до даного класу 
-var noob = new Person();
-noob.name = 'Noob';
-noob.age = 45;
-noob.bio = "Tall, strain hair, and good people";
-noob.hooby = "plays games, reading books";
-noob.favorite_food = "pizza";
-noob.favorite_music = "lil peep, Chase atlantic";
-noob.favorite_movies = "Titanic";
-noob.favorite_color = "blue";
-noob.favorite_social_media = "instagram";
-//enter 
-console.log(noob.name, noob.age, noob.bio, noob.favorite_color);
 
-noob.info();
+//function print
+print(quiz_variante_answers);
+
+//code is good
+//ends
