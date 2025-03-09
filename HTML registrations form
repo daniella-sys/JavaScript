@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Перевірка спливаючого вікна</title>
+</head>
+<body>
+    <h1>Анкета реєстрування</h1>
+    <!-- Підключення JavaScript файлу -->
+    <script src="index.js"></script>
+    <h2>Форма реєстрації</h2>
+    <form id="registrationForm">
+        <label for="username">Ім'я користувача:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="name"> Name:</label>
+        <input type="text" id="name" name="name"required>
+        <br>
+        <label for="emailgmail">Email person:</label>
+        <input type="text" id="emailgmail" email-gmail="emailgmail"required>
+        <br>
+        <label for="password">Password person:</label>
+        <input type="text" id="password" password="password"required>
+        <br>
+        <label for="age">Age person:</label>
+        <input type="text" id="age" age="age"required>
+        <br>
+        <label for="gender"> Стать:</label>
+        <input type="text" id="gender" gender="gender"required>
+        <br>
+        <label for="studentorno"> Student or not:</label>
+        <input type="text" id="studentorno" id="studentorno" studentorno="studentorno"required>
+        </form>
+</html>

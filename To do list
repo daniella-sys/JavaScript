@@ -1,0 +1,51 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const itemListA = document.getElementById("item-list-a");
+  const createButtonA = document.getElementById("create-button-a");
+  const selectCategoryA = document.getElementById("select-category-a");
+  const addButtonA = document.getElementById("add-button-a");
+
+  const itemListB = document.getElementById("item-list-b");
+  const createButtonB = document.getElementById("create-button-b");
+  const selectCategoryB = document.getElementById("select-category-b");
+  const addButtonB = document.getElementById("add-button-b");
+
+  function addItem(itemList, newItemText, category) {
+      if (newItemText) {
+          const listItem = document.createElement("li");
+          listItem.textContent = `${category}: ${newItemText}`;
+
+          const editButton = document.createElement("button");
+          editButton.textContent = "Редагувати текст";
+          editButton.addEventListener('click', () => {
+              const newText = prompt("Введіть новий текст:", newItemText);
+              if (newText) {
+                  listItem.textContent = `${category}: ${newText}`;
+                  listItem.appendChild(editButton);
+                  listItem.appendChild(deleteButton);
+              }
+          });
+
+          const deleteButton = document.createElement("button");
+          deleteButton.textContent = "Видалити";
+          deleteButton.addEventListener("click", () => {
+              itemList.removeChild(listItem);
+          });
+
+          listItem.appendChild(editButton);
+          listItem.appendChild(deleteButton);
+          itemList.appendChild(listItem);
+      }
+  }
+
+  addButtonA.addEventListener('click', () => {
+      const newItemText = newItemInputA.value;
+      const category = selectCategoryA.value;
+      addItem(itemListA, newItemText, category);
+  });
+
+  addButtonB.addEventListener('click', () => {
+      const newItemText = newItemInputB.value;
+      const category = selectCategoryB.value;
+      addItem(itemListB, newItemText, category);
+  });
+});

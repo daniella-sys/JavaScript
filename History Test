@@ -1,0 +1,146 @@
+//початок коду
+
+
+
+// code is ends
+// my code is good.
+//nice
+//cool
+
+//test history 10 class
+//one question
+const history = [
+    {
+      question_historyone: prompt("Якого року відбулося відновлення Польської держави?", "Далі будуть варіанти відповідей ви повинні вести відповідб через запропонованих"),
+      // variante answers
+      optionsone: prompt('a: 1917, b: 1918, в: 1919, г: 1920'),
+      //correct answer
+      correct_answerone: 0 // right answer
+    },
+    // two question
+    {
+        question_historytwo: prompt("Яку назву отримав період історії Польщі, метою якого було викорінення корупції та подолання інфляції? "),
+        // variante answers
+        optionstwo: prompt('а:депресія, б:стагнація, в:санація, г:застій '),
+        //correct answer
+        correct_answertwo: 2 //right answer
+    },
+    //three question
+    {
+       question_historythree: prompt("Хто став першим президентом Чехословацької республіки? "),
+       //variante answers
+       optionsthree: prompt('а: Едвард Бенеш, б: Клемент Готвальд, в: Томаш Масарик, г: Юзеф Пілсудський '),
+       //correct answer
+       correct_answerthree: 2 //right answer
+
+    },
+    //four question
+    {
+        question_historyfour: prompt("Яку назву отримала лінія, що залишила Польській державі землі, населені переважно поляками (за винятком частини українських територій): "),
+        //variante answers
+        optionsfour: prompt('а: "лінія Мажино", б: "національна лінія", в: "лінія Гінденбурга", г: "лінія Керзона" '),
+        //correct answer
+        correct_answerfour: 3 // correct answer
+    },
+    //five question
+    {
+        question_historyfive: prompt("Яку назву отримав договір, підписаний між РСФРР, УСРР та Польщею 18 березня 1921р.? "),
+        //variante question
+        optionsfive: prompt("а: Ризький, б: Варшавський, в: Тріанонський, г: Севрський "),
+        //correct answer
+        correct_answerfive: 0 //correct answer
+    },
+    //six question
+    {
+        question_historysix: prompt('Єдиний польський морський порт, який за рішенням Паризької конференції був проголошений вільним містом під опікою Ліги Націй - це '),
+        //variante answer
+        optionssix: prompt("а: Кенігсберг, б: Гдиня, в: Гданськ, г: Мемель"),
+        //correct answer
+        correct_answersix: 2 // correct answer
+    },
+    //seven question
+    {
+        question_historyseven: prompt("Яка територія після Першої світової війни увійшла до складу Чехословаччини? "),
+        //variante question
+        optionsseven: prompt("а: Трансільванія, б: Бессарабія, в: Закарпатська Україна, г: Північна Буковина "),
+        //correct answer
+        correct_answerseven: 2 //correct answer
+    },
+    //eight question 
+    {
+        question_historyeight: prompt("Хто був обраний президентом Чехословаччини в 1935р.? "),
+        //variante question
+        optionseight: prompt("а: Е. Бенеш, б: Т. Масарик, в: Ю. Пілсудський, г: М. Горті"),
+        //correct answer
+        correct_answereight: 1 //correct answer
+    }, 
+    //nine question
+    {
+        question_historynine: prompt("Пацифікація - це: "),
+        //variante answer
+        optionsnine: prompt("а: заходи з адміністративної уніфікації українських земель, здійснювані урядом Румунії в 1920 — першій половині 1930-х pp, В: політика планомірного заселення українських земель військовими та цивільними колоністами, здійснювана урядом Польщі в 1920-х рр,  Б: адміністративно-репресивна поліцейська акція проти українського населення Східної Галичини, здійснена польською владою восени 1930 р, Г:процес ополячення українців у Галичині. "),
+        //correct answer
+        correct_answernine: 1 // correct answer
+    }, 
+    //ten question
+    {
+        question_historyten: prompt("Позначте історичного діяча, який відіграв визначальну роль у відродженні та розвитку Польщі: "),
+        //variante question
+        optionsten: prompt("а: Юзеф Пілсудський, б: Габрієль Нарутович, в: Станіслав Войцеховський, г:Ігнацій Мосцицький "),
+        //correct answer
+        correct_answerten: 0 //correct answer
+    },
+    //elevel question
+    {
+        question_historyelevel: prompt("Якого року Юзеф Пілсудський очолив військовий переворот проти сейму? "),
+        //variante question
+        optionselevel: prompt("a: 1918p, в: 1922р, б: 1920р, г:1926p. "),
+        //correct answer
+        correct_answerelevel: 3 // correct answer
+    }, 
+    //two teen question
+    {
+        question_historytwo_teen: prompt("В період з 1935р. по 1938р. президентом Чехословаччини був "),
+        //variante question
+        optionstwo_teen: prompt("а: Т.Масарик, 6: Ю. Пілсудський, в: А.Волошин,  г:Е.Бенеш"),
+        //correct answer
+        correct_answertwo_teen: 3,
+
+    }
+];
+
+
+
+// check out is is.
+
+// check out question and...
+const question = [
+    "question_historyone", "question_historytwo", "question_historythree", 
+    "question_historyfour", "question_historyfive", "question_historysix", 
+    "question_historyseven", "question_historyeight", "question_historynine", 
+    "question_historyten", "question_historyeleven", "question_historytwoteen"
+  ];
+  
+  const correct_answers = [
+    "optionsone", "optionstwo", "optionsthree", "optionsfour", "optionsfive", 
+    "optionssix", "optionsseven", "optionseight", "optionsnine", "optionsten", 
+    "optionseleven", "optionstwoteen"
+  ];
+  
+  const user_answers = [];
+  
+  for (let i = 0; i < question.length; i++) {
+    let answer = prompt(question[i]);  // Виклик спливаючого вікна для кожного питання
+    user_answers.push(answer);  // Додавання відповіді користувача до масиву
+  }
+  
+  for (let i = 0; i < question.length; i++) {
+    if (user_answers[i] === correct_answers[i]) {
+      console.log(`На ${question[i]} відповідь правильна!`);
+    } else {
+      console.log(`На ${question[i]} відповідь неправильна.`);
+    }
+  }
+  
+//all
+//Code is ends.
