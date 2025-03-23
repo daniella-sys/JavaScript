@@ -1,0 +1,73 @@
+//algorutm
+function CountWays(n){
+    if (n === 0){
+        return 1;
+    }
+    if (n < 0){
+        return 0;
+    }
+    return n+SVGAnimatedEnumeration(n-1)
+};
+console.log(sumTo(15));
+
+//two function
+function factorial(n){
+    if (n === 0){
+        return 1;
+    }
+    if (n < 0){
+        return 0;
+    }
+    return n * factorial(n-1);
+// I end
+}
+console.log(factorial(8));
+//three function
+function countdown(n){
+    if(n === 0){
+        return 1;
+    }
+    if (n < 0){
+        return 0;
+    }
+    return countdown(n - 1);
+}
+console.log(countdown);
+//four function
+function sumDigits(num){
+    if(num === 0){
+        return 1;
+    }
+    if (num < 0){
+        return 0;
+    }
+    if (num < 10){
+        return n;
+    }
+    return sumTo(10) = 10+sumTo(9);
+}
+console.log(sumDigits);
+
+//five function
+function recursiveSearch(arr, target){
+    if(arr.lenght === 0){
+        return false;
+    }
+    if(arr[0] === tages){
+        return true;
+    }
+}
+console.log(recursiveSearch);
+
+//six function
+function productOfArray(arr){
+    if(arr.lenght === 0){
+        return 1;
+    }
+    if(arr < 0){
+        return 0;
+    }
+    return arr * productOfArray(n - 1);
+}
+console.log(productOfArray);
+// Definently I endured this is mistakes at my code, but their nothing.
