@@ -1,0 +1,112 @@
+//component with function
+function Information(){
+    return(
+        <header> Information about the topic JS</header>
+    );
+}
+
+//component with const
+const Variable = () =>{
+    return(
+        <header>Variable Змінна: Місце для збереження даних, які можна використовувати та змінювати.</header>
+    );
+}
+
+//component with class
+class Func extends React.Component{
+    render(){
+        return(
+            <header>Function Функція: Блок коду, який виконує певну задачу, може бути викликаний кілька разів.</header>
+        );
+    }
+}
+
+//All class with component
+class Object extends React.Component{
+    render(){
+        return(
+            <header>Object Об'єкт: Сукупність даних властивостей та функцій методів, які їх обробляють.</header>
+        );
+    }
+}
+
+//...
+class Array extends React.Component{
+    render(){
+        return(
+            <header>Array Масив: Колекція даних, упорядкованих у певному порядку.</header>
+        );
+    }
+}
+//transfer of characteristics
+class Scope extends React.Component{
+    render(){
+        return(
+            <header>{this.props.bio}</header>
+        );
+    }
+}
+
+<Scope bio="Scope (Область видимості): Частина програми, де змінні доступні для використання."/>
+
+//transfer again
+class Closure extends React.Component{
+    render(){
+        return(
+            <header>{this.props.bio}</header>
+        );
+    }
+}
+
+<Closure bio="Замикання (Closure): Функція, яка запам’ятовує свої зовнішні змінні навіть після виконання." />
+
+//
+class Callback extends React.Component{
+    render(){
+        return(
+            <header>{this.props.bio}</header>
+        );
+    }
+}
+
+<Callback bio="Callback (Зворотний виклик): Функція, яка передається як аргумент іншій функції."/>
+
+//Come on
+class Promise extends React.Component{
+    render(){
+        return(
+            <header>{this.props.bio}</header>
+        );
+    }
+}
+
+//
+
+<Promise bio="Promise (Проміс): Об'єкт для асинхронних операцій, який вказує на успіх або помилку."/>
+
+//come on 
+class Event_Listener extends React.Component{
+    render(){
+        return(
+            <header>{this.props.bio}</header>
+        );
+    }
+}
+
+//
+
+<Event_Listener bio="Event Listener (Слухач подій): Метод для обробки подій, як-от натискання кнопки."/>
+
+//come on 
+class Destructuring extends React.Component{
+    render(){
+        return(
+            <header>{this.props.bio}</header>
+        );
+    }
+}
+//
+<Destructuring bio="Destructuring (Деструктуризація): Зручний спосіб отримання даних з масивів чи об'єктів."/>
+
+//I end this is code
+//well done!!
