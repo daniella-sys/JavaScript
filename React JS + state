@@ -1,0 +1,45 @@
+//створення стану
+//import Header
+import Header from './Header';
+
+//function Header
+function Header(props) {
+    return (
+        <header>
+            <h1>{props.title}</h1>
+            <p>{props.name}</p>
+        </header>
+    );
+}
+//class Story_counter
+class Story_counter extends React.Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            aboutText: "Розділ 1: Початок пригоди Ольга знаходить загадковий годинник, який відкриває портал у часі."
+        };
+        this.onClick = this.onClick.bind(this)
+    };
+}
+
+//Changed
+onClick(){
+    this.setState({aboutText: "Розділ 2: Перше випробування Вона потрапляє в середньовічну Україну, де знайомиться з ремісником Василем і бачить книгу, яка пов’язана з її мандрівкою."});
+    console.log("clicked");
+
+}
+
+render(){
+    return(
+        <div className="Історія">
+            <Header title="History" name="Topic_1"/>
+            <h1>{this.state.aboutText}</h1>
+            <input
+            placeholder={this.state.aboutText}
+            onClick={this.onClick}
+            onMouseOut={() => console.log("mouse entered")}
+            />
+            <p>{this.state.aboutText === "Topic 1!" ? "yes" : "no"}</p>
+        </div>
+    );
+}
