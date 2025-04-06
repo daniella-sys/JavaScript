@@ -1,0 +1,99 @@
+import React from "react";
+
+//class one
+class User extends React.Component {
+  render() {
+    const users = [
+      {
+        id: 1,
+        firstname: "Jon",
+        lastname: "Marley",
+        bio: "Definitely he is a student and he is giving knowledge",
+        age: 17,
+        isHappy: true,
+      },
+      {
+        id: 2,
+        firstname: "Bob",
+        lastname: "Marley",
+        bio: "He is working to finish his geography project",
+        age: 16,
+        isHappy: false,
+      },
+      {
+        id: 3,
+        firstname: "Olena",
+        lastname: "Marley",
+        bio: "She loves games in the garden",
+        age: 15,
+        isHappy: true,
+      },
+    ];
+    return (
+      <div>
+        {users.map((el) => (
+          <div className="user" key={el.id}>
+            <h3>
+              {el.firstname} {el.lastname}
+            </h3>
+            <p>{el.bio}</p> {/* Added the bio property to display */}
+            <p>Age: {el.age}</p> {/* Added the age property */}
+            <p>Is Happy: {el.isHappy ? "Yes" : "No"}</p> {/* Conditional rendering */}
+          </div>
+        ))}
+      </div>
+    );
+  }
+}
+
+
+//class two
+import User1 from "./indexmain.js";
+class User1 extends React.Component {
+    render(){
+        const user = [
+            {
+                id: 1,
+                firstname: "Bob",
+                lastname: "Kartoshka",
+                age: 15,
+                bio: "He is student",
+                isHappy: true,
+            },
+            {
+                id: 2,
+                firstname: "Peep",
+                lastname: "Naztachka",
+                age: 12,
+                bio: "He is student and he is to be into surfing",
+                isHappy: false,
+            },
+            {
+                id: 3,
+                firstname: "Losha",
+                lastname: "Avokado",
+                age: 10,
+                bio: "He was at school and he is help and support soccer teams",
+                isHappy: true,
+            },
+        ];
+        return (
+            <div>
+                {user.map((el) => (
+                    <div className="user" key={el.id}>
+                        <h3>
+                            {el.firstname}{el.lastname}
+                        </h3>
+                        <p>{el.bio}</p>
+                        <p>Age: {el.age}</p>
+                        <p> Is Happy: {el.isHappy ? "Yes" : "No"}</p>
+                    </div>
+                ))}
+            </div>
+        );
+    }
+}
+//Code is ends
+//all
+//good
+//definently
