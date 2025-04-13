@@ -1,0 +1,44 @@
+//work with proces
+class User extends React.Component{
+  constructor(props){
+    super(props)
+    this.state = {
+      user: [
+        {
+          id: 1,
+          firstname: "Nino",
+          lastname: "Marley",
+          bio: "He loves to play game ana to learn something",
+          age: 16,
+          isHappy: true
+        },
+      ],
+    };
+  };
+};
+
+render(){
+  if(this.state.user.lenght > 0)
+    return (<div>
+      {this.state.user.map((el)) = (<div className="user" key={el.id}/>)}
+      <h3>{el.firstname} {el.lastname}</h3>
+      <p>{el.bio}</p>
+      <b>{el.isHappy ? "Yes" : "no"}</b>
+    </div>)};
+   
+
+//I create form for human
+class Addhuman extends React.Component{
+  render(){
+    return(
+      <form>
+        <input placeholder="Name"/>
+        <input placeholder="FirstName"/>
+        <input placeholder="Lastname"/>
+        <textarea placeholder="Bio"></textarea>
+        <input placeholder="age"/>
+        <button type='?'>Add</button>
+        </form>
+    )
+  }
+}
