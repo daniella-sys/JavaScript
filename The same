@@ -1,0 +1,34 @@
+//class for Add user
+class Adduser extends React.Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      firstname: "",
+      lastname: "",
+      bio: "",
+      age: 2,
+      isHappy: true
+    };
+  };
+};
+//Countinue
+render() {
+    return(
+       <form>
+           //Отримання даних від користувача
+           <input placeholder="firstname" onChange={(e) => this.setState({firstname: e.target.value})}/>
+           <input placeholder="lastname" onChange={(e) => this.setState({lastname: e.target.value})}/>
+           <textarea placeholder="bio" onChange={(e) => this.setState({bio: e.target.value})}/>
+           <input placeholder="age" onChange={(e) => this.setState({age: e.target.value})}/>
+           <input placeholder="isHappy" onChange={(e) => this.setState({isHappy: e.target.checked})}/>
+           <button type="button" onClick={() => this.props.onAdd({
+            firstname: this.state.firstname,
+            lastname: this.state.lastname,
+            bio: this.state.bio,
+            age: this.state.age,
+            isHappy: this.state.isHappy
+           })}>Add user</button>
+       </form>
+    )
+  }
+console.log(Adduser);
