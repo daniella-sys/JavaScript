@@ -1,0 +1,29 @@
+//class for Add human
+class Addhuman extends React.Component {
+    constructor(props){
+        super(props)
+        this.state = {
+            firstname: "",
+            lastname: "",
+            bio: "",
+            age: 5,
+            isHappy: false
+        };
+    };
+};
+
+//Отримання даних від користувача
+    render() {
+        return (
+            <form>
+                <input placeholder="firstname" onChange={(el) => this.setSate({firstname: e.target.value})}/>
+                <input placeholder="lastname"  onChange={(el) => this.setState({lastname: e.target.value})}/>
+                <input placeholder="bio" onChange={(el) => this.setState({bio: e.target.value})}/>
+                <input placeholder="age" onChange={(el) => this.setState({age: e.target.value})}/>
+                <input placeholder="isHappy" onChange={(el) => this.setState({isHappy: e.target.value})}/>
+                <button type= "button"> Add </button>
+            </form>
+  );
+};
+//вивід
+console.log(Addhuman);
