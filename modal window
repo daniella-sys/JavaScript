@@ -1,0 +1,128 @@
+//modal window
+class add_information extends React.Component{
+  render(){
+    return(
+      <form>
+        <input placeholder="Email"/>
+        <input placeholder="Name"/>
+        <input placeholder="password"/>
+        <button type="?"> Currently</button>
+      </form>
+    )
+  }
+}
+//Js code for add_information
+function checkForm(el){
+  var email = el.email.value
+  var name = el.name.value
+  var password = el.name.value
+  var error = "";
+  if(name.lenght < 2)
+    error = "Name is so small";
+  else if(email.includes('@'))
+    error = "Email not have a @";
+}
+if (error) {
+  alert(error);
+  return false;
+}
+
+
+
+//переадресація
+document.getElementById('error').innerText = '';
+window.location = 'сайт';
+
+//спливаюче вікно для підтвердження дії 
+import { useState } from "react";
+
+const Modal = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <div>
+      <button onClick={() => setIsOpen(true)}>Open</button>
+      {isOpen && (
+        <div className="modal">
+          <div className="modal-content">
+            <p>Hello! Type something:</p>
+            <input type="text" />
+            <button onClick={() => setIsOpen(false)}>Close</button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Modal;
+
+//questions for user
+const questions = [
+  {
+    question_1: prompt("Яку технологію ви використовуєте найчастіше?"),
+    //answers
+    variante_answers: prompt("a: Angular, b: React, c: Vue")
+    
+  },
+  {
+    question_2: prompt("- Якому жанру фільмів ви надаєте перевагу?"),
+    //answers
+    variante_answers: prompt(" horror, comedy, romance"),
+  },
+  {
+    question_3: prompt("- Ви б радше подорожували у майбутнє чи минуле?"),
+    //answers
+    variante_answers: prompt("before, future"),
+  },
+  {
+    question_4: prompt("- Який соціальний медіа вам подобається найбільше?"),
+    //answers
+    variante_answers: prompt("Instagram, telegram, twitter"),
+  }
+];
+
+prompt("Ваший запит успішно надісланий!!");
+
+//на всякий випадок видалення 
+//видалення add-information
+
+
+//Remove add_information
+class MyComponent extends React.Component {
+  constructor(props) {
+    this.deleteadd_information = this.deleteadd_information.bind(this)
+    super(props);
+    this.state = { name: "" };
+    this.add_information = React.createRef(); // Correct way to define ref
+  }
+
+  render() {
+    return (
+      <form ref={this.add_information}>
+        <input
+          placeholder="Name"
+          onChange={(el) => this.setState({ name: el.target.value })}
+        />
+        <button
+          type="button"
+          onClick={() => {
+            this.add_information.current.reset(); // Correctly resets the form
+          }}
+        >
+          Reset
+        </button>
+      </form>
+    );
+  }
+}
+
+//remove
+deleteadd_information(id) {
+  this.setState((prevState) => ({
+    deleteadd_information: prevState.deleteadd_information.filter((el) => el.id !== id),
+  }));
+}
+//code is ends
+//I finished
+
