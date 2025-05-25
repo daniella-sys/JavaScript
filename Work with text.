@@ -1,0 +1,32 @@
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nohan"/>
+    <meta name="keywords" content="windows, linux, php" />
+    <title>Перевірка спливаючого вікна</title>
+   
+</head>
+<body>
+    <!-- Підключення JavaScript файлу -->
+    <!-- Attractive!!! -->
+    <script src="indexmain.js"></script>
+    Heloyyy  
+    <h1> Purity </h1>
+    <h2> in</h2>
+    <h3> my</h3>
+    <h4> room.</h4>
+    <p>According I'm safeguat information in text today.<b> Bye bye!!</b></p>
+    <p> prosperity empire<strong> in 1456</strong></p>
+    <p> Empty <em>text</em></p>
+    <p><u>Underline</u></p>
+    H<sub>2</sub>O
+    a<sup>2</sup>
+    <hr>
+    <abbr title="According">HTML</abbr>
+    <address> New York, USA</address>
+    <small> USA</small>
+</body>
+</html>
