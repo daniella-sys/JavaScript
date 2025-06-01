@@ -1,0 +1,39 @@
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nohan"/>
+    <meta name="keywords" content="windows, linux, php" />
+    <title>Перевірка спливаючого вікна</title>
+   
+</head>
+<body>
+    <!-- Підключення JavaScript файлу -->
+    <!-- Attractive!!! -->
+    <script src="indexmain.js"></script>
+    Heloyyy  
+    
+    <ol>
+        <li> I neet to buy skirt</li>
+        <li> I buy tie</li>
+        <li> I buy boots</li>
+        <li> I buy pijeams </li>
+        <li> I buy tracksuit</li>
+        <li> I buy trackners</li>
+        <li> I buy trousers</li>
+    </ol>
+    <ul type="circle">
+        <li>Knee</li>
+        <li>boots</li>
+        <li>shoes</li>
+        <li>tie</li>
+        <li>tracksuit</li>
+        <li> trackners</li>
+        <li>trousers</li>
+        <li> skirt</li>
+    </ul>
+    <p title="List text">List</p>
+</body>
+</html>
