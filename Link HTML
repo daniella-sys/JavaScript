@@ -1,0 +1,21 @@
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Перевірка спливаючого вікна</title>
+   
+</head>
+<body>
+    <!-- Підключення JavaScript файлу -->
+    <!-- Attractive!!! -->
+    <script src="indexmain.js"></script>
+    Heloyyy  
+    <a href="https://ray.so/#background=true&darkMode=true&padding=64&theme=raindrop&code=ZnVuY3Rpb24gcHJpbnQoKSB7CiAgICBjb25zb2xlLmxvZygiSGVsbG8iKTsKICAgIGNvbnNvbGUubG9nKCIhIik7Cn0KcHJpbnQoIldvcmxkIik7CnZhciBzb21lTmV3ID0gInNvbWVOZXciOwpwcmludChzb21lTmV3KTsKCgpmdW5jdGlvbiBhZGQoeCwgeSkgewogICAgaWYoeCA9ISBudWxsICYmIHkgIT0gbnVsbCkgewogICAgdmFyIG5lcyA9IHggKyB5OwogICAgcHJpbnQoItCg0YPQt9GD0LvRjNGC0LDRgiA6ICIgKyBuZXMpOyAgCn0gZWxzZQphbGVydCgiRXJyb3IiKTsKCn0KdmFyIHVzZXIxID0gcHJvbXB0KCJFbnRlciAxIG51bWJlcjogIiwgMCk7CnZhciB1c2VyMiA9IHByb21wdCgiRW50ZXIgMiBudW1iZXI6ICIsIDEpOwphZGQodXNlcjEsIHVzZXIyKTsK&language=javascript"> ray_so</a><br></br>
+    <a href="https://en.khanacademy.org/humanities/whp-origins/era-6-the-long-nineteenth-century-1750-ce-to-1914-ce/60/a/read-data-exploration-greenhouse-gas-emissions" title="Khan academy" target="_blank"> Khan academy</a><br></br>
+    <a href="#bottom"> Вниз </a><br></br>
+    <a name="bottom"></a><br><br>
+    <!--People write on gmail. This is awful-->
+    <a href="mailto:admin@programmer.com"> Conversation with different people</a><br></br>
+</body>
+</html>
