@@ -1,0 +1,18 @@
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Перевірка спливаючого вікна</title>
+    <link rel="stylesheet"href="">
+   
+</head>
+<body>
+    <!-- Підключення JavaScript файлу -->
+    <!-- Attractive!!! -->
+    <script src="indexmain.js"></script>
+    Heloyyy  
+<div>Conversation 1</div>
+<div> Conversation 2</div>
+<div>Girl and boy they have conversation</div>
+<div>Girl and girl decided to go in cinema.</div>
