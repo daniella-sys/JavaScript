@@ -1,0 +1,41 @@
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Перевірка спливаючого вікна</title>
+   
+</head>
+<body>
+    <!-- Підключення JavaScript файлу -->
+    <!-- Attractive!!! -->
+    <script src="indexmain.js"></script>
+    Heloyyy  
+    <table border="5" width="340px">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Stiv</td>
+                <td>56</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Olena</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Last</td>
+                <td>Last</td>
+            </tr>
+        </tfoot>
+    </table>
+ 
+ 
+</body>
+</html>
