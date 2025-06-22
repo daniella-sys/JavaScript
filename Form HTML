@@ -1,0 +1,28 @@
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Перевірка спливаючого вікна</title>
+    <link rel="stylesheet"href="">
+   
+</head>
+<body>
+    <!-- Підключення JavaScript файлу -->
+    <!-- Attractive!!! -->
+    <script src="indexmain.js"></script>
+    Heloyyy  
+<!--Necessory form-->
+<form>
+    <label>Worth ender information</label>
+    <input type="Name" placeholder="Enter name" value="Worth" maxlength="10"><br><br>
+    <input type="lastname" placeholder="Enter last name" value="Worth" maxlength="11"><br><br>
+    <input type="password" placeholder="Enter password" value="preffered" maxlength="8"><br><br>
+    <input type="email" placeholder="Enter email"><br><br>
+    <input type="color"><br><br>
+    <input type="date"><br><br>
+    <input type="time"><br><br>
+    <input type="checkbox"><br><br>
+    <input type="button" placeholder="Already?"><br><br>
+    <input type="reset" placeholder="Remove your information"><br><br>
+</form>
