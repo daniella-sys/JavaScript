@@ -1,0 +1,26 @@
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Перевірка спливаючого вікна</title>
+    <link rel="stylesheet"href="">
+   
+</head>
+<body>
+    <!-- Підключення JavaScript файлу -->
+    <!-- Attractive!!! -->
+    <script src="indexmain.js"></script>
+    Heloyyy  
+<!--Necessory form-->
+<form>
+    <select>
+        <option>JavaScript</option>
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>php</option>
+        <option>Python</option>
+        <option>React</option>
+    </select>
+</form>
+<!--End-->
