@@ -1,0 +1,28 @@
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Перевірка спливаючого вікна</title>
+    <link rel="stylesheet"href="">
+   
+</head>
+<body>
+    <!-- Підключення JavaScript файлу -->
+    <!-- Attractive!!! -->
+    <script src="indexmain.js"></script>
+    Heloyyy  
+<!--Necessory form-->
+<form>
+    <textarea placeholder="Enter name" maxlength="100" required></textarea><br><br>
+    <button type="submit">Already</button><br><br>
+    <textarea placeholder="What are you think?" maxlength="200" required></textarea><br><br>
+    <button type="submit">Already</button><br><br>
+    <textarea placeholder="Tea or coffee?" maxlength="50" required></textarea><br><br>
+    <button type="submit">Already</button><br><br>
+    <textarea placeholder="Morning or evening?" maxlength="25" required></textarea><br><br>
+    <button type="submit">Already</button><br><br>
+    <textarea placeholder="Appropitery are you have favorite subject in school?" maxlength="32"></textarea>
+    <button type="submit">Already</button>
+</form>
+<!--End-->
