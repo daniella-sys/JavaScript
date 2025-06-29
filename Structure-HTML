@@ -1,0 +1,27 @@
+
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Перевірка спливаючого вікна</title>
+    <link rel="stylesheet"href="">
+   
+</head>
+<body>
+    <!-- Підключення JavaScript файлу -->
+    <!-- Attractive!!! -->
+    <script src="indexmain.js"></script>
+    Heloyyy  
+<!--Necessory form-->
+<header>Шапка профілю</header>
+<nav>Меню</nav>
+<main>Основна частина</main>
+<aside>Бокова частина</aside>
+<footer>Футер сайта</footer>
+<progress max="100" value="25">Текст</progress>
+<details>
+    <summary>Подробніше</summary>
+    Ось тут прихований текст
+</details>
+<!--End-->
