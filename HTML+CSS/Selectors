@@ -1,0 +1,25 @@
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- Підключення JavaScript файлу -->
+    <!-- Attractive!!! -->
+    <script src="indexmain.js"></script>
+    Heloyyy  
+<!--Necessory form-->
+<p class="color">For example<b>text</b>1</p>
+<p id="text-color">For example<b>text</b>2</p>
+<div>
+    <p>For example <b>text</b>3</p>
+    <p>For example <b>text</b>4</p>
+    <p>For example <b>text</b>5</p>
+    <p>For example <b>text</b>6</p>
+</div>
+<p>For example <b class="color">text</b>7</p>
+<!--End-->
