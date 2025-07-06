@@ -1,0 +1,11 @@
+.color {
+    color:aqua;
+}
+
+#text-color{
+    color: green;
+}
+
+div p {
+    color: yellow;
+}
