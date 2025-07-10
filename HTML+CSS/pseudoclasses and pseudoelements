@@ -1,0 +1,20 @@
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- Підключення JavaScript файлу -->
+    <!-- Attractive!!! -->
+    <script src="indexmain.js"></script>
+    Heloyyy  
+<a href="#" class="link">Alone link</a>
+<input type="text" placeholder="Enter name">
+<div></div>
+<div>Some information</div>
+<p class="text-color" title="Anyway">Anything</p>
+<!--End-->
