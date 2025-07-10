@@ -1,0 +1,43 @@
+link {
+    color:blueviolet;
+    text-decoration: underline;
+}
+.link:hover{
+    text-decoration: line-through;
+    color: #000;
+}
+.link:active{
+    text-decoration: aqua;
+    color: yellow;
+}
+.link:visited{
+    color:antiquewhite;
+}
+input {
+    width: 300px;
+}
+input:focus {
+    width: 250px;
+}
+div:empty {
+    color: goldenrod;
+}
+div:not(:empty) {
+    color:brown;
+}
+
+p.text-color::after {
+    content: 'Anything text';
+    color: orange;
+}
+p.text-color::before {
+    content: 'Helloy';
+    color: orchid;
+    text-decoration: wavy;
+    cursor: pointer;
+}
+p.text-color::before {
+    content:attr(title);
+    color: whitesmoke;
+    font-size: medium;
+}
