@@ -1,0 +1,14 @@
+body {
+    background-image: url('https://www.nationalforests.org/assets/header-images/Siuslaw-NF_Drift-Creek_Sam-Beebe-1200x800-qual30.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#some-block {
+    background-color: aqua;
+    width: 300px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+} 
