@@ -1,0 +1,18 @@
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- Підключення JavaScript файлу -->
+    <!-- Attractive!!! -->
+    <script src="indexmain.js"></script>
+    Heloyyy  
+
+<div id="some-block"> any Color block</div>
+<p class="text-color" title="Anyway">Anything</p>
+<!--End-->
