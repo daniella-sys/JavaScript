@@ -1,0 +1,19 @@
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- Підключення JavaScript файлу -->
+    <!-- Attractive!!! -->
+    <script src="indexmain.js"></script>
+    Heloyyy  
+<p class="main-text">Visual Studio Code , який зазвичай називають VS Code , [ 9 ] — це інтегроване середовище розробки, розроблене Microsoft для Windows , Linux , macOS та веббраузерів . [ 10 ] [ 11 ] Функції включають підтримку налагодження , підсвічування синтаксису , інтелектуальне автодоповнення коду , фрагменти коду , рефакторинг коду та вбудований контроль версій за допомогою Git </p>
+<p class="any-text">Visual Studio Code — це власне програмне забезпечення, випущене за ліцензією «Microsoft Software License» [ 6 ], але засноване на ліцензованій програмі MIT під назвою «Visual Studio Code </p>
+<p class="last-text"> The end </p>
+<!--End-->
+</body>
