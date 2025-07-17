@@ -1,0 +1,17 @@
+import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+p.main-text {
+    color: yellow;
+    text-aling: center;
+    font-size: 25px;
+}
+p.any-text {
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 30px;
+    word-spacing: 15px;
+}
+p.last-text {
+    color: red;
+    font-family: "Bitcount Grid Single"
+}
