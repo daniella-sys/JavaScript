@@ -1,0 +1,19 @@
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- Підключення JavaScript файлу -->
+    <!-- Attractive!!! -->
+    <script src="indexmain.js"></script>
+    Heloyyy  
+<div id="block"></div>
+<p class="block">Mona Lisa, La Gioconda, фр. La Joconde) — картина італійського художника Леонардо да Вінчі; написана близько 1503 року. Картина є одним з найвідоміших безцінних творів живопису у світі. Належить до епохи Відродження.</p>
+<!--End-->
+</body>
+</html>
