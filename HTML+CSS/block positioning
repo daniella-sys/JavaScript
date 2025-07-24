@@ -1,0 +1,21 @@
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- Підключення JavaScript файлу -->
+    <!-- Attractive!!! -->
+    <script src="indexmain.js"></script>
+    Heloyyy  
+<header>Шапка</header>
+<main>Головна частина</main>
+<aside>Бокова частина</aside>
+<footer>Футер сайту </footer>
+<!--End-->
+</body>
+</html>
