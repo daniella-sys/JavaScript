@@ -1,0 +1,28 @@
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- Підключення JavaScript файлу -->
+    <!-- Attractive!!! -->
+    <script src="indexmain.js"></script>
+    Heloyyy  
+<ol сlass="yep">
+    <li>Стаття</li>
+    <li>Газета</li>
+    <li>Журнал</li>
+    <li>Комікс </li>
+</ol>
+<ul сlass="nav">
+    <li>Про нас</li>
+    <li>Контакти</li>
+    <li>Надіслати повідомлення</li>
+</ul>
+<!--End-->
+</body>
+</html>
