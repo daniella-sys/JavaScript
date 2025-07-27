@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    height: 100vh;     /* 100% висоти екрана */
+    width: 100%;       /* ширина по всій сторінці */
+    margin: 0;
+    padding: 20px;     /* додає простору всередині */
+    color: white;      /* щоб текст був видно */
+    font-family: sans-serif;
+}
+ol {
+    list-style: none;
+    display: block;
+    margin-left: 20px;
+    float: left;
+    text-align: center;
+    background-color: darkblue;
+    border-radius: 5px;
+    border: 5px solid darkcyan;
+    
+}
+ ul{
+     display: inline;
+     margin-right: 20px;
+     float: right;
+     text-align: center;
+     background-color:chartreuse;
+     color: brown;
+     border-radius: 7px;
+     border: 5px solid powderblue;
+     
+ }
+nav ul li:hover {
+    background-color: azure;
+    color: cadetblue;
+    border-radius: 10px;
+}
