@@ -1,0 +1,65 @@
+//start
+//функція класу головна
+const button1 = document.querySelector('.gfs');
+button.addEventListener('click', function() {
+    //Тут викликається потрібна тобі функція
+    alert('Кнопка натиснута!');
+});
+//функція класу основна частина
+const button2 = document.querySelector('.fdt');
+button.addEventListener('click', function(){
+    alert('Кнопка натиснута!');
+})
+//функція класу прикладів
+const button3 = document.querySelector('.gfg');
+button.addEventListener('click', function(){
+    alert('Кнопка натиснута !');
+} )
+//функція класу контакти
+const button4 = document.querySelector('.wrj');
+button.addEventListener('click', function(){
+    alert('Кнопка натиснута');
+})
+//функція класу введення email
+const button5 = document.querySelector('.tfy');
+button.addEventListener('click', function(){
+    alert('Кнопка натиснута!');
+})
+//функція класу введення значення імені
+const button6 = document.querySelector('.pdsa');
+button.addEventListener('click', function(){
+    alert('Кнопка натиснута');
+})
+//функція класу введення пароля
+const button7 = document.querySelector('.pzw');
+button.addEventListener('click', function() {
+    alert('Кнопка натиснута');
+    
+})
+//функція класу видалити інформацію
+const button8 = document.querySelector('.bjj');
+button.addEventListener('click', function(){
+    alert('Button onclick');
+})
+//функція класу для галочки
+const button9 = document.querySelector('.jjf');
+button.addEventListener('click', function(){
+    alert('Button onclick');
+})
+//створення перевіряючої функції на кілткість символів
+function check_out(el){
+    var name = el.name.value;
+    var email = el.email.value;
+    var password = el.password.value;
+    var error = '';
+    if(name.length < 4)
+        error = 'name is small';
+    if(email.length < 5)
+        error = 'email is small';
+    if(password.length < 8)
+        error = 'password is small';
+    console.log(error);
+}
+//кінець 
+//
+//
