@@ -1,0 +1,49 @@
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- Підключення JavaScript файлу -->
+    <!-- Attractive!!! -->
+    <script src="indexmain.js"></script>
+    Heloyyy  
+<header>Що таке JavaScript?</header>
+<h1 title="Що таке JS?">JavaScript (JS) — динамічна, об'єктно-орієнтована[5] прототипна мова програмування. </h1>
+<h2>JavaScript класифікують як прототипну (підмножина об'єктно-орієнтованої), скриптову мову програмування з динамічною типізацією. Окрім прототипної, JavaScript також частково підтримує інші парадигми програмування (імперативну та частково функційну) деякі відповідні архітектурні властивості, зокрема: динамічна та слабка типізація, автоматичне керування пам'яттю, прототипне наслідування, функції як об'єкти першого класу.</h2>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Xh2di0-5j62ony5nG2qAKQnMKySzoxutFGJh2gsS3ED7qmP-AJzgdcNcME5xtVObOGo&usqp=CAU" width="auto" height="auto" title="JavaScript" alt="виглядає" class="one">
+
+<main>
+    <ul type="circle">
+    <li>- Як JS працює в браузері</li>
+    <li>- Змінні, типи даних, умовні оператори</li>
+</ul>
+</main>
+<h3>JavaScript в браузері виконується JavaScript-рушієм, який є частиною браузера. Він аналізує, компілює та виконує код, перетворюючи його на дії, які може зрозуміти комп'ютер. Браузер має вбудований механізм для виконання JavaScript, зазвичай розташований у тегах script у HTML-коді сторінки. </h3>
+<h4>У JavaScript існують змінні, типи даних та умовні оператори. Змінні використовуються для зберігання значень, а типи даних визначають, які значення можуть зберігатися у змінній та як з ними можна працювати. Умовні оператори, такі як if, else if та else, дозволяють виконувати різні дії в залежності від умов.</h4>
+<aside>Приклади коду</aside>
+<img src="https://webformyself.com/wp-content/uploads/2020/126/10.png" width="auto" height="auto" class="two">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFdpbquTMIjjuY_AWP2ahyj6teZToeRdBoCjU0UjeTAD6pNlc7iRPGMVO65FBQN0xM1IH6tz9yj5FKWjSTPM6wRxOVUQcZOd2MuLbqEK5V-0Dg2dZM6CFxric7cPO5F_9f1L2Rmz3lhrpHAklmT0iRBfWB07-N2QZmzKZoLj4nKg2XLou2SEoBYWbt3Q/s501/javascript%20%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4.png" width="auto" height="auto" title="Приклади коду" class="three">
+
+<footer>
+    <a href="mailto:admin@coder.com" class="link-messages">Якщо щось потрібно — надішліть повідомлення саме тут</a>
+    <button type="submit" сlass="gfs">Головна</button>
+    <button type="submit" class="fdt">Основа</button>
+    <button type="submit" class="gfg">Приклади</button>
+    <button type="submit" class="wrj">Контакти</button>
+    <input type="email" class="tfy"><br><br>
+    <input type="name" class="pdsa"><br><br>
+    <input type="password" class="pzw"><br><br>
+    <input type="reset"class="bjj"><br><br>
+    <input type="checkbox" class="jjf"><br><br>
+</footer>
+<h5>Заключна частина</h5>
+<h6>Кожен блок сценарію інтерпретатор розбирає окремо. На вебсторінках, коли треба комбінувати блоки JavaScript та HTML, синтаксичні помилки знайти легше, якщо зберігати функції сценарію в окремому блоці коду, або (ще краще) використовувати багато малих, пов'язаних між собою .js файлів. Таким чином, синтаксична помилка не спричинятиме «падіння» всієї вебсторінки та дозволить сповістити користувача про проблему.</h6>
+
+<!--End-->
+</body>
+</html>
